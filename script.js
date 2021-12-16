@@ -88,8 +88,6 @@ gameBoard();
 
 const gameFlow = (() => { 
 
-const message = document.querySelector(".subtext");
-
 return {
     
 }
