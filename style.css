@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.squares {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    border-radius: 4px;
+    justify-content: center;
+    position: relative;
+}
+.square {
+position: relative;
+border-radius: 2px;
+border: solid black 2px;
+justify-content: center;
+font-size: calc(3vw + 3vh);
+text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 4px;
+    justify-content: center;
+}
+.resetBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.subtext {
+    width: 1000px;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+}
