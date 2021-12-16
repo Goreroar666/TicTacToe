@@ -90,14 +90,6 @@ const gameFlow = (() => {
 
 const message = document.querySelector(".subtext");
 
-function displayMessages() {
-    if (player1.turn) {
-        message.innerHTML = "Player 1, make your move.";
-    } else {
-        message.innerHTML = "Player 2, make your move.";
-    }
-};
-
 return {
     
 }
